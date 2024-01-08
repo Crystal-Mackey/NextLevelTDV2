@@ -1,16 +1,15 @@
 import React from 'react';
 
-const Gallery = () => {
+function Gallery({ images }) {
   return (
-    <div className="container">
-      <h2>Photo Gallery</h2>
-      <div>
-        {/* Example image - replace with your images */}
-        <img src="path-to-your-image.jpg" alt="Gallery Item" />
-        {/* Add more images here */}
-      </div>
+    <div className="gallery-grid">
+      {images.map((image, index) => (
+        <div key={index} className="gallery-item">
+          <img src={image.src} alt={image.alt} />
+        </div>
+      ))}
     </div>
   );
-};
+}
 
-export default Gallery;
+export default Gallery
