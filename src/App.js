@@ -6,7 +6,7 @@ import ReviewCard from './components/ReviewCard';
 import ServiceCard from './components/ServiceCard';
 import Gallery from './components/Gallery';
 import VehicleTinting from "./components/media/VehicleTinting.jpg";
-import MarineTinting from "./components/media/CommercialTiniting1.jpg";
+import MarineTinting from "./components/media/MarineTintinting1.jpg";
 import CommercialTinting from "./components/media/CommercialTiniting1.jpg";
 import RVTinting from "./components/media/RVTinting.jpg";
 import ResidentialTinting from "./components/media/ResidentialTinting1.jpg"
