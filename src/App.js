@@ -99,7 +99,11 @@ function App() {
       <header><img src={Logo} alt="Logo" className="logo" />
         <h1>Next Level Window Tinting</h1>
       </header>
-      <main><button onClick={callForQuote}>Call for Quote</button>
+      <main><div className="external-link-button">
+        <a href="https://squareup.com/appointments/book/06ckdy19ikcgrv/L4FHWHSK44A9F/services" target="_blank" rel="noopener noreferrer">
+          Book an Appointment
+        </a>
+      </div>
         <section id="services"><div className="services-grid">
         {services.map(service => (
           <ServiceCard
@@ -140,8 +144,5 @@ function App() {
   );
 }
 
-function callForQuote() {
-  // Implement call logic or redirect
-}
 
 export default App;
