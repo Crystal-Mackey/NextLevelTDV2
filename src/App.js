@@ -100,7 +100,7 @@ function App() {
       <div className="content-container"></div>
       <header>
         <img src={Logo} alt="Logo" className="logo" />
-        <h1>Next Level Window Tinting</h1>
+        <h1>Mosted Wanted Customs</h1>
       </header>
       <main>
         <div className="external-link-button">
