@@ -151,11 +151,11 @@ function App() {
             href="https://www.google.com/maps/place/573+SW+Biltmore+St,+Port+St+Lucie,+FL+34983"
             target="_blank"
           >
-            573 SW Biltmore St, Port St Lucie, FL 34983
+            589 SW Biltmore St, Port St Lucie, FL 34983
           </a>
         </p>
         <p>
-          <a href="tel:+17722007271">772-200-7271</a>
+        <a href="tel:+17726262404">772-626-2404</a>
         </p>
       </footer>
     </div>
